@@ -11,10 +11,14 @@ sh script_name.sh
 ```
 
 ## Advanced Usage
-Place your script in /usr/bin/, then use the command:
+Place your script in /usr/bin/, then make the script executable:
 
 ```shell
-$ sh script_name.sh backupall
+$ chmod +x /usr/bin/script_name.sh
+```
+And finally enter the command:
+```shell
+$ script_name
 ```
 
 ## Contributing
